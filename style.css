@@ -13,3 +13,8 @@
   --heading-font: "Poppins", sans-serif;
   --body-font: "Open Sans", sans-serif;
 }
+
+/* *****general styles***** */
+.hidden {
+  display: none;
+}
