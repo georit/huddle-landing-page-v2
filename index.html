@@ -91,12 +91,14 @@
             alt="Illustration of people doing a presentation"
             class="section-img"
           />
-          <h3 class="section-heading heading">grow together</h3>
-          <p class="section-info info">
-            Generate meaningful discussions with your audience and build a
-            strong, loyal community. Think of the insightful conversations you
-            miss out on with a feedback form.
-          </p>
+          <div class="section-text">
+            <h3 class="section-heading heading">grow together</h3>
+            <p class="section-info info">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
         </section>
         <div class="bottom-bg"></div>
       </div>
@@ -108,11 +110,14 @@
           alt="Illustration of people having a conversation"
           class="section-img"
         />
-        <h3 class="section-heading heading">flowing conversations</h3>
-        <p class="section-info info">
-          You wouldn't paginate a conversation in real life, so why do it
-          online? Our threads have just-in-time loading for a more natural flow.
-        </p>
+        <div class="section-text">
+          <h3 class="section-heading heading">flowing conversations</h3>
+          <p class="section-info info">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
       </section>
 
       <!-- ***your users*** -->
@@ -124,12 +129,14 @@
             alt="Illustration of users"
             class="section-img"
           />
-          <h3 class="section-heading heading">your users</h3>
-          <p class="section-info info">
-            It takes no time at all to integrate Huddle with your app's
-            authentication solution. This means, once signed in to your app,
-            your users can start chatting immediately.
-          </p>
+          <div class="section-text">
+            <h3 class="section-heading heading">your users</h3>
+            <p class="section-info info">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
         </section>
         <div class="bottom-bg"></div>
       </div>
@@ -153,19 +160,27 @@
             To recieve tips on how to grow your community, sign up to our weekly
             newsletter. We’ll never send you spam or pass on your email address
           </p>
-          <form class="newsletter-form">
+          <form class="newsletter-form" id="newsletter-form">
             <label for="email">
-              <input type="email" name="email" id="email" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
             </label>
             <input type="submit" value="Subscribe" />
           </form>
-          <p class="email-error-warning hidden">Check your email</p>
+          <p class="email-error-warning hidden" id="email-error-warning">
+            Enter a valid email address please!
+          </p>
         </div>
         <div class="contact-and-social-media">
           <svg
             viewBox="0 0 240 39"
             class="footer-logo"
-            width="180"
+            width="240"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g fill-rule="nonzero" fill="none">
@@ -200,5 +215,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- *****scripts***** -->
+    <script src="script.js"></script>
   </body>
 </html>
