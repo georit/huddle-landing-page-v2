@@ -581,6 +581,10 @@ p.email-error-warning {
     margin: 0 10%;
   }
 
+  .newsletter-info {
+    width: 70%;
+  }
+
   footer label {
     width: 70%;
   }
